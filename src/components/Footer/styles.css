@@ -1,0 +1,38 @@
+.footer {
+    background: #6278F7 url('./assets/fundo.svg') no-repeat center;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        background: #6278F7;
+        color: #FFF;
+        padding: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer div {
+        margin: 20px;
+    }
+
+    .footer ul li {
+        display: block;
+        margin-right: 32px;
+        padding: 5%;
+    }
+}
